@@ -3,7 +3,7 @@ package proxy;
 public class Video implements VideoI {
     private String name;
 
-    Video(String name) {
+    public Video(String name) {
         this.name = name;
         this.loadVideo();
     }

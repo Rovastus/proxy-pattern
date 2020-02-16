@@ -5,7 +5,7 @@ public class ProxyVideo implements VideoI {
     private User user;
     private Video video;
 
-    ProxyVideo(String name, User user) {
+    public ProxyVideo(String name, User user) {
         this.name = name;
         this.user = user;
     }
